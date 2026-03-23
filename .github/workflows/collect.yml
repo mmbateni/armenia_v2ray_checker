@@ -1,1 +1,63 @@
+name: Armenia V2Ray Config Collector
 
+on:
+  schedule:
+    - cron: "30 20 * * *"   # 20:30 UTC = 00:00 Tehran / 12:30 Vancouver
+  workflow_dispatch:
+    inputs:
+      tcp_workers:
+        description: "Concurrent TCP workers (default 300)"
+        default: "300"
+      tcp_timeout:
+        description: "TCP timeout in seconds (default 1.5)"
+        default: "1.5"
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run collector
+        run: python collect_armenia_configs.py
+        env:
+          SCAN_WORKERS: ${{ github.event.inputs.tcp_workers || '300' }}
+          SCAN_TCP_TO:  ${{ github.event.inputs.tcp_timeout || '1.5' }}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: armenia-configs-${{ github.run_id }}
+          path: |
+            working_armenia_configs.txt
+            working_armenia_configs.json
+            working_armenia_configs_base64.txt
+            by_protocol/
+          retention-days: 7
+
+      - name: Commit results to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            working_armenia_configs.txt \
+            working_armenia_configs.json \
+            working_armenia_configs_base64.txt \
+            by_protocol/
+          git diff --cached --quiet \
+            || git commit -m "chore: update Armenia configs $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

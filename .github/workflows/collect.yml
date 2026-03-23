@@ -2,7 +2,7 @@ name: Armenia V2Ray Config Collector
 
 on:
   schedule:
-    - cron: "30 20 * * *"   # 20:30 UTC = 00:00 Tehran / 12:30 Vancouver
+    - cron: "0 */4 * * *"   # Every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC
   workflow_dispatch:
     inputs:
       tcp_workers:

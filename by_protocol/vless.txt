@@ -1,5 +1,3 @@
-# VLESS — Armenia — 2026-03-23 17:18 UTC
-# 2 configs
+# VLESS — Armenia — 2026-03-23 20:17 UTC
+# 0 configs
 
-vless://508d96e8-953f-4a67-bc7d-8aba5878f38a@5.10.214.123:8080?mode=auto&path=🔒
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=🔒

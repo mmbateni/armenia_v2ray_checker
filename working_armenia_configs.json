@@ -1,30 +1,5 @@
 {
-  "checked_at": "2026-03-23 20:17 UTC",
-  "count": 3,
-  "configs": [
-    {
-      "uri": "trojan://Aimer@188.164.159.175:8443?type=ws&sni=\ud83d\udd12",
-      "protocol": "trojan",
-      "host": "188.164.159.175",
-      "port": 8443,
-      "latency_ms": 1.9,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.175:8443?security=tls&sni=\ud83d\udd12",
-      "protocol": "trojan",
-      "host": "188.164.159.175",
-      "port": 8443,
-      "latency_ms": 2.6,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.175:8443?allowInsecure=1&sni=\ud83d\udd12",
-      "protocol": "trojan",
-      "host": "188.164.159.175",
-      "port": 8443,
-      "latency_ms": 2.8,
-      "country": "AM"
-    }
-  ]
+  "checked_at": "2026-03-24 01:27 UTC",
+  "count": 0,
+  "configs": []
 }

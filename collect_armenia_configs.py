@@ -246,25 +246,45 @@ def parse_host_port(uri: str) -> tuple[str, int] | None:
         pass
     return None
 
-# ── GeoIP check ───────────────────────────────────────────────────────────────
+# ── GeoIP check (Enhanced Batching) ───────────────────────────────────────────
 
-_GEOIP_CACHE: dict[str, str] = {}
+def bulk_geoip_filter(hosts: set[str]) -> set[str]:
+    """Resolves hosts to IPs, uses batch API to prevent rate limits, returns valid AM hosts."""
+    print(f"  Resolving and Geo-locating {len(hosts)} unique hosts in batches...", flush=True)
+    
+    valid_am_hosts = set()
+    host_to_ip = {}
+    
+    # 1. Resolve hostnames to IPs locally first
+    for host in hosts:
+        try:
+            ip = socket.gethostbyname(host)
+            host_to_ip[host] = ip
+        except Exception:
+            continue
+            
+    unique_ips = list(set(host_to_ip.values()))
+    ip_to_cc = {}
+    
+    # 2. Query ip-api in batches of 100 (API limit requirement)
+    for i in range(0, len(unique_ips), 100):
+        batch = [{"query": ip, "fields": "countryCode"} for ip in unique_ips[i:i+100]]
+        try:
+            r = requests.post("http://ip-api.com/batch", json=batch, timeout=10)
+            if r.status_code == 200:
+                for req, res in zip(batch, r.json()):
+                    if res and res.get("countryCode") == TARGET_CC:
+                        ip_to_cc[req["query"]] = TARGET_CC
+        except Exception as e:
+            print(f"  ! Batch GeoIP failed: {e}")
+        time.sleep(1.5) # Respect the rate limit (15 requests per minute for batch)
 
-def geoip_country(host: str) -> str:
-    """Return ISO-3166 country code for a hostname/IP, or '' on failure."""
-    if host in _GEOIP_CACHE:
-        return _GEOIP_CACHE[host]
-    try:
-        ip = socket.gethostbyname(host)
-        r = requests.get(
-            f"http://ip-api.com/json/{ip}?fields=countryCode",
-            timeout=8,
-        )
-        cc = r.json().get("countryCode", "")
-        _GEOIP_CACHE[host] = cc
-        return cc
-    except Exception:
-        return ""
+    # 3. Map back to original hosts
+    for host, ip in host_to_ip.items():
+        if ip_to_cc.get(ip) == TARGET_CC:
+            valid_am_hosts.add(host)
+            
+    return valid_am_hosts
 
 # ── TCP reachability check ─────────────────────────────────────────────────────
 
@@ -326,54 +346,42 @@ def collect_all() -> list[str]:
     return list(all_uris)
 
 # ── Verifier ──────────────────────────────────────────────────────────────────
-
-def verify_one(uri: str) -> dict | None:
-    hp = parse_host_port(uri)
-    if not hp:
-        return None
-    host, port = hp
-    if not host or not (1 <= port <= 65535):
-        return None
-
-    # Step 1: GeoIP first (cheaper if IP is already cached)
-    cc = geoip_country(host)
-    if cc != TARGET_CC:
-        return None
-
-    # Step 2: TCP reachability
-    latency = tcp_ok(host, port)
-    if latency is None:
-        return None
-
-    return {
-        "uri":      uri,
-        "protocol": classify(uri),
-        "host":     host,
-        "port":     port,
-        "latency_ms": latency,
-        "country":  cc,
-    }
-
 def verify_all(uris: list[str]) -> list[dict]:
-    results = []
-    total = len(uris)
-    done  = 0
+    # Parse all URIs first to get unique hosts
+    parsed_configs = []
+    unique_hosts = set()
+    
+    for uri in uris:
+        hp = parse_host_port(uri)
+        if hp:
+            host, port = hp
+            if host and (1 <= port <= 65535):
+                parsed_configs.append({"uri": uri, "host": host, "port": port, "protocol": classify(uri)})
+                unique_hosts.add(host)
 
+    # Filter hosts by country BEFORE doing TCP checks
+    am_hosts = bulk_geoip_filter(unique_hosts)
+    print(f"  Filtered down to {len(am_hosts)} unique hosts actually in Armenia.")
+
+    # Only keep configs that belong to Armenia
+    am_configs = [c for c in parsed_configs if c["host"] in am_hosts]
+    
+    results = []
+    done = 0
+
+    # Now we only TCP test the Armenian ones
     with concurrent.futures.ThreadPoolExecutor(max_workers=TCP_WORKERS) as ex:
-        futs = {ex.submit(verify_one, u): u for u in uris}
+        futs = {ex.submit(tcp_ok, c["host"], c["port"]): c for c in am_configs}
         for fut in concurrent.futures.as_completed(futs):
             done += 1
-            res = fut.result()
-            if res:
-                results.append(res)
-                print(
-                    f"  ✓ [{res['protocol'].upper()}] {res['host']}:{res['port']}"
-                    f"  {res['latency_ms']}ms",
-                    flush=True,
-                )
-            if done % 500 == 0:
-                print(f"  … {done}/{total} tested, {len(results)} Armenian found",
-                      flush=True)
+            c = futs[fut]
+            latency = fut.result()
+            
+            if latency is not None:
+                c["latency_ms"] = latency
+                c["country"] = TARGET_CC
+                results.append(c)
+                print(f"  ✓ [{c['protocol'].upper()}] {c['host']}:{c['port']}  {latency}ms", flush=True)
 
     return sorted(results, key=lambda x: x["latency_ms"])
 

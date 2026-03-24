@@ -2,7 +2,7 @@
 """
 Armenia V2Ray Config Collector & Verifier
 ==========================================
-Scrapes 20+ public sources for free V2Ray configs (VMess, VLESS,
+Scrapes 40+ public sources for free V2Ray configs (VMess, VLESS,
 Shadowsocks, Trojan, Hysteria2, TUIC, Reality), extracts the server IP
 from each config, performs a TCP port-reachability check, and confirms
 the IP belongs to Armenia (country code AM) via ip-api.com.
@@ -46,8 +46,6 @@ HEADERS = {
 # ── Source URLs ───────────────────────────────────────────────────────────────
 # All publicly known repositories and sites that publish free V2Ray configs.
 # Each entry: (label, url, format)
-#   format = "text"   → plain URI list or base64-encoded URI list
-#            "json"   → JSON array / object containing configs
 
 RAW_SOURCES = [
     # ── barry-far (updates every 15 min) ──
@@ -59,7 +57,6 @@ RAW_SOURCES = [
 
     # ── ebrasha (updates every 15 min) ──
     ("ebrasha/all",  "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/all_extracted_configs.txt", "text"),
-    ("ebrasha/main", "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt", "text"),
 
     # ── MatinGhanbari (updates every 15 min, 39 subs) ──
     ("matin/super", "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt", "text"),
@@ -72,52 +69,81 @@ RAW_SOURCES = [
     # ── Epodonios bulk (already split by country — Armenia folder) ──
     ("epodonios/AM", "https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-configs/main/sub/Armenia/config.txt", "text"),
     ("epodonios/sub1","https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub1.txt", "text"),
-    ("epodonios/sub2","https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub2.txt", "text"),
-    ("epodonios/sub3","https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub3.txt", "text"),
 
     # ── ShatakVPN/ConfigForge-V2Ray ──
     ("shatak/all",    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",         "text"),
-    ("shatak/vless",  "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/vless.txt",       "text"),
-    ("shatak/vmess",  "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/vmess.txt",       "text"),
-    ("shatak/ss",     "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/shadowsocks.txt", "text"),
-    ("shatak/trojan", "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/trojan.txt",      "text"),
 
     # ── SoliSpirit (country-split) ──
     ("solispirit/vmess",  "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/Countries/Armenia/vmess.txt",   "text"),
     ("solispirit/vless",  "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/Countries/Armenia/vless.txt",   "text"),
-    ("solispirit/ss",     "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/Countries/Armenia/shadowsocks.txt","text"),
-    ("solispirit/trojan", "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/Countries/Armenia/trojan.txt",  "text"),
-
-    # ── hamedcode/port-based ──
-    ("hamedcode/all", "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/all_configs.txt", "text"),
 
     # ── NiREvil/vless (mega aggregator) ──
     ("nirevil/sub", "https://raw.githubusercontent.com/NiREvil/vless/main/sub/G", "text"),
 
     # ── 10ium aggregator ──
-    ("10ium/vless", "https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/main/output_configs/Vless.txt",       "text"),
-    ("10ium/ss",    "https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/main/output_configs/ShadowSocks.txt", "text"),
-    ("10ium/trojan","https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/main/output_configs/Trojan.txt",      "text"),
-    ("10ium/mixed", "https://raw.githubusercontent.com/10ium/V2Hub3/main/merged_base64",                               "text"),
+    ("10ium/mixed", "https://raw.githubusercontent.com/10ium/V2Hub3/main/merged_base64", "text"),
 
-    # ── V2Nodes web scrape (Armenia page) ──
+    # ── V2Nodes & openproxylist ──
     ("v2nodes/AM", "https://www.v2nodes.com/country/am/", "html"),
-
-    # ── openproxylist.com Armenia V2Ray page ──
     ("openproxylist/AM", "https://openproxylist.com/v2ray/country/am/", "html"),
-
-    # ── MrMohebi/xray-proxy-grabber-telegram ──
-    ("mohebi/all", "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt", "text"),
-
-    # ── proxifly aggregator ──
-    ("proxifly/all", "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt", "text"),
 
     # ── mahdibland/V2Hub ──
     ("mahdibland/mix", "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/update/mixed/mixed.txt", "text"),
 
     # ── Mosifree ──
-    ("mosifree/reality", "https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/main/Vless_Reality", "text"),
-    ("mosifree/all",     "https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/main/All",           "text"),
+    ("mosifree/all",     "https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/main/All", "text"),
+    
+    # =========================================================================
+    # ── NEW COMPREHENSIVE SOURCES ADDED ──
+    # =========================================================================
+    
+    # ── yebekhe/TelegramV2rayCollector (Huge Telegram aggregator) ──
+    ("yebekhe/mix_b64", "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix_base64", "text"),
+    ("yebekhe/vmess",   "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/vmess", "text"),
+    ("yebekhe/vless",   "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/vless", "text"),
+    ("yebekhe/trojan",  "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/trojan", "text"),
+    ("yebekhe/reality", "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/reality", "text"),
+    
+    # ── soroushmirzaei/telegram-configs-collector ──
+    ("soroush/vmess",  "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess", "text"),
+    ("soroush/vless",  "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless", "text"),
+    ("soroush/trojan", "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan", "text"),
+    ("soroush/ss",     "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks", "text"),
+
+    # ── F0rc3Run/F0rc3Run ──
+    ("f0rc3run/vmess",  "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/vmess.txt", "text"),
+    ("f0rc3run/vless",  "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/vless.txt", "text"),
+    ("f0rc3run/trojan", "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/trojan.txt", "text"),
+
+    # ── ALIILAPRO/v2rayNG-Config ──
+    ("aliilapro/all", "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt", "text"),
+
+    # ── aiboboxx/v2rayfree ──
+    ("aiboboxx/v2", "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2", "text"),
+
+    # ── mfuu/v2ray ──
+    ("mfuu/v2ray", "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray", "text"),
+
+    # ── Leon406/Sub ──
+    ("leon406/sub", "https://raw.githubusercontent.com/Leon406/Sub/main/sub/share/all", "text"),
+
+    # ── w1770946466/Auto_proxy ──
+    ("autoproxy/all", "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num", "text"),
+
+    # ── freefq/free ──
+    ("freefq/v2ray", "https://raw.githubusercontent.com/freefq/free/master/v2", "text"),
+
+    # ── pawdroid/Free-servers ──
+    ("pawdroid/sub", "https://raw.githubusercontent.com/pawdroid/Free-servers/main/sub", "text"),
+    
+    # ── Kwinshadow/TelegramV2rayCollector ──
+    ("kwinshadow/mix", "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/configs/mixed", "text"),
+    
+    # ── Awesome-Free-VMESS ──
+    ("awesome/vmess", "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt", "text"),
+
+    # ── vpn-vless-configs-russia (Often has Eastern Europe/Caucasus endpoints) ──
+    ("kort0881/vless", "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/main/vless.txt", "text"),
 ]
 
 # Regex to extract config URIs from arbitrary text
@@ -126,14 +152,12 @@ URI_RE = re.compile(
     re.IGNORECASE,
 )
 
-
 # ── Parsers ───────────────────────────────────────────────────────────────────
 
 def decode_if_base64(text: str) -> str:
     """Try to base64-decode a blob; return decoded string or original."""
     stripped = text.strip().replace("\n", "").replace("\r", "")
     try:
-        # Only try if the text doesn't already contain URIs
         if not URI_RE.search(text[:200]):
             padded = stripped + "=" * (-len(stripped) % 4)
             decoded = base64.b64decode(padded).decode("utf-8", errors="ignore")
@@ -152,21 +176,16 @@ def extract_uris_from_text(text: str) -> list[str]:
 
 def extract_uris_from_html(html: str) -> list[str]:
     """Extract URIs embedded in HTML pages (v2nodes, openproxylist, etc.)."""
-    # Some sites store configs in data attributes or code blocks
     return extract_uris_from_text(html)
 
 
 def parse_host_port(uri: str) -> tuple[str, int] | None:
-    """
-    Extract (host, port) from any V2Ray URI scheme.
-    Returns None if unparseable.
-    """
+    """Extract (host, port) from any V2Ray URI scheme. Returns None if unparseable."""
     uri = uri.strip()
     scheme = uri.split("://")[0].lower()
 
     try:
         if scheme == "vmess":
-            # VMess: vmess://<base64-encoded-json>
             b64 = uri[8:]
             padded = b64 + "=" * (-len(b64) % 4)
             obj = json.loads(base64.b64decode(padded).decode("utf-8", errors="ignore"))
@@ -175,37 +194,29 @@ def parse_host_port(uri: str) -> tuple[str, int] | None:
             return (host, port) if host and port else None
 
         elif scheme in ("vless", "trojan", "tuic"):
-            # vless://uuid@host:port?...#remark
             body = uri.split("://", 1)[1]
             if "@" in body:
                 after_at = body.split("@", 1)[1]
             else:
                 after_at = body
-            # strip fragment
-            after_at = after_at.split("#")[0]
-            # strip query
-            hostport = after_at.split("?")[0]
-            if hostport.startswith("["):
-                # IPv6
-                host = hostport.split("]")[0][1:]
-                port = int(hostport.split("]:")[1]) if "]:" in hostport else 443
-            elif ":" in hostport:
-                parts = hostport.rsplit(":", 1)
+            after_at = after_at.split("#")[0].split("?")[0]
+            if after_at.startswith("["):
+                host = after_at.split("]")[0][1:]
+                port = int(after_at.split("]:")[1]) if "]:" in after_at else 443
+            elif ":" in after_at:
+                parts = after_at.rsplit(":", 1)
                 host, port = parts[0], int(parts[1])
             else:
                 return None
             return (host, port) if host and port else None
 
         elif scheme == "ss":
-            # ss://BASE64@host:port OR ss://method:pass@host:port
             body = uri[5:]
-            # strip fragment/query
             body = body.split("#")[0].split("?")[0]
             if "@" in body:
                 after_at = body.rsplit("@", 1)[1]
                 hostport = after_at
             else:
-                # old style: ss://base64(method:pass)@host:port
                 try:
                     padded = body + "=" * (-len(body) % 4)
                     decoded = base64.b64decode(padded).decode("utf-8", errors="ignore")
@@ -221,7 +232,6 @@ def parse_host_port(uri: str) -> tuple[str, int] | None:
                 return (host, port) if host and port else None
 
         elif scheme in ("hysteria2", "hy2"):
-            # hysteria2://pass@host:port?...
             body = uri.split("://", 1)[1]
             if "@" in body:
                 after_at = body.split("@", 1)[1]
@@ -236,18 +246,15 @@ def parse_host_port(uri: str) -> tuple[str, int] | None:
         pass
     return None
 
-
 # ── GeoIP check ───────────────────────────────────────────────────────────────
 
-_GEOIP_CACHE: dict[str, str] = {}   # ip → country_code
-
+_GEOIP_CACHE: dict[str, str] = {}
 
 def geoip_country(host: str) -> str:
     """Return ISO-3166 country code for a hostname/IP, or '' on failure."""
     if host in _GEOIP_CACHE:
         return _GEOIP_CACHE[host]
     try:
-        # Resolve hostname to IP first
         ip = socket.gethostbyname(host)
         r = requests.get(
             f"http://ip-api.com/json/{ip}?fields=countryCode",
@@ -259,14 +266,10 @@ def geoip_country(host: str) -> str:
     except Exception:
         return ""
 
-
 # ── TCP reachability check ─────────────────────────────────────────────────────
 
 def tcp_ok(host: str, port: int) -> float | None:
-    """
-    Try to open a TCP connection to host:port.
-    Returns round-trip latency in ms, or None on failure.
-    """
+    """Try to open a TCP connection. Returns latency in ms, or None on failure."""
     try:
         ip = socket.gethostbyname(host)
         start = time.monotonic()
@@ -275,7 +278,6 @@ def tcp_ok(host: str, port: int) -> float | None:
         return round((time.monotonic() - start) * 1000, 1)
     except Exception:
         return None
-
 
 # ── Protocol classifier ────────────────────────────────────────────────────────
 
@@ -288,7 +290,6 @@ def classify(uri: str) -> str:
     if s in ("hysteria2", "hy2"): return "hysteria2"
     if s == "tuic":        return "tuic"
     return "other"
-
 
 # ── Scraper ───────────────────────────────────────────────────────────────────
 
@@ -310,7 +311,8 @@ def collect_all() -> list[str]:
     """Fetch all sources in parallel and return de-duplicated URI list."""
     all_uris: set[str] = set()
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
+    # Increased max_workers from 12 to 24 to speed up the fetching of the new sources.
+    with concurrent.futures.ThreadPoolExecutor(max_workers=24) as ex:
         futs = {ex.submit(fetch_source, lbl, url, fmt): lbl
                 for lbl, url, fmt in RAW_SOURCES}
         for fut in concurrent.futures.as_completed(futs):
@@ -323,17 +325,9 @@ def collect_all() -> list[str]:
     print(f"\nTotal unique URIs collected: {len(all_uris)}", flush=True)
     return list(all_uris)
 
-
 # ── Verifier ──────────────────────────────────────────────────────────────────
 
 def verify_one(uri: str) -> dict | None:
-    """
-    For a single URI:
-    1. Parse host+port
-    2. TCP check
-    3. GeoIP → must be Armenia (AM)
-    Returns result dict or None.
-    """
     hp = parse_host_port(uri)
     if not hp:
         return None
@@ -360,9 +354,7 @@ def verify_one(uri: str) -> dict | None:
         "country":  cc,
     }
 
-
 def verify_all(uris: list[str]) -> list[dict]:
-    """Test all URIs concurrently, return list of passing results."""
     results = []
     total = len(uris)
     done  = 0
@@ -385,13 +377,11 @@ def verify_all(uris: list[str]) -> list[dict]:
 
     return sorted(results, key=lambda x: x["latency_ms"])
 
-
 # ── Writers ───────────────────────────────────────────────────────────────────
 
 def write_outputs(results: list[dict]) -> None:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    # ── working_armenia_configs.txt ──
     with open("working_armenia_configs.txt", "w") as f:
         f.write(f"# Armenia V2Ray Configs — verified {now}\n")
         f.write(f"# {len(results)} configs | TCP-reachable + GeoIP=AM\n")
@@ -399,12 +389,10 @@ def write_outputs(results: list[dict]) -> None:
         for r in results:
             f.write(r["uri"] + "\n")
 
-    # ── working_armenia_configs.json ──
     with open("working_armenia_configs.json", "w") as f:
         json.dump({"checked_at": now, "count": len(results), "configs": results},
                   f, indent=2)
 
-    # ── by_protocol/ split files ──
     proto_dir = Path("by_protocol")
     proto_dir.mkdir(exist_ok=True)
 
@@ -421,7 +409,6 @@ def write_outputs(results: list[dict]) -> None:
             for u in uris:
                 f.write(u + "\n")
 
-    # ── base64 subscription (for apps that require it) ──
     raw_uris = "\n".join(r["uri"] for r in results)
     b64_sub  = base64.b64encode(raw_uris.encode()).decode()
     with open("working_armenia_configs_base64.txt", "w") as f:
@@ -435,7 +422,6 @@ def write_outputs(results: list[dict]) -> None:
         n = len(buckets[proto])
         if n:
             print(f"  by_protocol/{proto}.txt   ({n})")
-
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 
@@ -459,7 +445,6 @@ def main():
     print(f"\n{sep}")
     print(f"Done — {len(results)} working Armenian V2Ray configs found.")
     print(sep)
-
 
 if __name__ == "__main__":
     main()

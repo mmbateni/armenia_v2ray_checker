@@ -1,9 +1,3 @@
-# TROJAN — Armenia — 2026-03-24 05:31 UTC
-# 6 configs
+# TROJAN — Armenia — 2026-03-24 08:56 UTC
+# 0 configs
 
-trojan://Aimer@188.164.159.22:2096?path=🔒
-trojan://Aimer@188.164.159.241:2096?security=tls&sni=🔒
-trojan://Aimer@188.164.159.241:2096?type=ws&sni=🔒
-trojan://Aimer@188.164.159.45:8443?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.45:8443?type=ws&sni=🔒
-trojan://Aimer@188.164.159.45:8443?security=tls&sni=🔒

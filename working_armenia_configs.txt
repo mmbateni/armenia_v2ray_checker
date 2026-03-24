@@ -1,4 +1,12 @@
-# Armenia V2Ray Configs — verified 2026-03-24 01:27 UTC
-# 0 configs | TCP-reachable + GeoIP=AM
+# Armenia V2Ray Configs — verified 2026-03-24 05:31 UTC
+# 8 configs | TCP-reachable + GeoIP=AM
 # Import this file as a subscription in v2rayNG / Hiddify / NekoBox
 
+trojan://Aimer@188.164.159.22:2096?path=🔒
+trojan://Aimer@188.164.159.241:2096?security=tls&sni=🔒
+trojan://Aimer@188.164.159.241:2096?type=ws&sni=🔒
+ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=🔒
+trojan://Aimer@188.164.159.45:8443?allowInsecure=1&sni=🔒
+trojan://Aimer@188.164.159.45:8443?type=ws&sni=🔒
+trojan://Aimer@188.164.159.45:8443?security=tls&sni=🔒
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVS0s1WFV2aklsT2tlVGJCQTBuZllo@2.56.207.150:8443

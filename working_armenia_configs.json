@@ -1,5 +1,70 @@
 {
-  "checked_at": "2026-03-24 01:27 UTC",
-  "count": 0,
-  "configs": []
+  "checked_at": "2026-03-24 05:31 UTC",
+  "count": 8,
+  "configs": [
+    {
+      "uri": "trojan://Aimer@188.164.159.22:2096?path=\ud83d\udd12",
+      "protocol": "trojan",
+      "host": "188.164.159.22",
+      "port": 2096,
+      "latency_ms": 2.2,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.241:2096?security=tls&sni=\ud83d\udd12",
+      "protocol": "trojan",
+      "host": "188.164.159.241",
+      "port": 2096,
+      "latency_ms": 2.3,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.241:2096?type=ws&sni=\ud83d\udd12",
+      "protocol": "trojan",
+      "host": "188.164.159.241",
+      "port": 2096,
+      "latency_ms": 2.5,
+      "country": "AM"
+    },
+    {
+      "uri": "ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=\ud83d\udd12",
+      "protocol": "ss",
+      "host": "5.10.214.123",
+      "port": 8880,
+      "latency_ms": 2.5,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.45:8443?allowInsecure=1&sni=\ud83d\udd12",
+      "protocol": "trojan",
+      "host": "188.164.159.45",
+      "port": 8443,
+      "latency_ms": 2.6,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.45:8443?type=ws&sni=\ud83d\udd12",
+      "protocol": "trojan",
+      "host": "188.164.159.45",
+      "port": 8443,
+      "latency_ms": 2.7,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.45:8443?security=tls&sni=\ud83d\udd12",
+      "protocol": "trojan",
+      "host": "188.164.159.45",
+      "port": 8443,
+      "latency_ms": 17.7,
+      "country": "AM"
+    },
+    {
+      "uri": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVS0s1WFV2aklsT2tlVGJCQTBuZllo@2.56.207.150:8443",
+      "protocol": "ss",
+      "host": "2.56.207.150",
+      "port": 8443,
+      "latency_ms": 162.1,
+      "country": "AM"
+    }
+  ]
 }

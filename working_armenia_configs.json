@@ -1,29 +1,21 @@
 {
-  "checked_at": "2026-03-26 01:44 UTC",
-  "count": 22,
+  "checked_at": "2026-03-26 05:52 UTC",
+  "count": 25,
   "configs": [
     {
-      "uri": "trojan://Aimer@188.164.159.171:443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.171",
-      "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 2.0,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.74:8443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.74",
+      "uri": "trojan://Aimer@188.164.159.175:8443?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.175",
       "port": 8443,
       "protocol": "trojan",
-      "latency_ms": 2.1,
+      "latency_ms": 5.4,
       "country": "AM"
     },
     {
-      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.81:8880?path=\ud83d\udd12",
-      "host": "5.10.214.81",
-      "port": 8880,
-      "protocol": "vless",
-      "latency_ms": 2.1,
+      "uri": "trojan://ttfang@5.10.214.216:2096?security=tls&sni=\ud83d\udd12",
+      "host": "5.10.214.216",
+      "port": 2096,
+      "protocol": "trojan",
+      "latency_ms": 5.6,
       "country": "AM"
     },
     {
@@ -31,79 +23,7 @@
       "host": "188.164.159.91",
       "port": 2083,
       "protocol": "trojan",
-      "latency_ms": 2.2,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.138:2083?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.138",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 2.2,
-      "country": "AM"
-    },
-    {
-      "uri": "ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=\ud83d\udd12",
-      "host": "5.10.214.123",
-      "port": 8880,
-      "protocol": "ss",
-      "latency_ms": 2.2,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@5.10.214.213:8880?allowInsecure=0&sni=\ud83d\udd12",
-      "host": "5.10.214.213",
-      "port": 8880,
-      "protocol": "vless",
-      "latency_ms": 2.3,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.18:443?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.18",
-      "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 2.5,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://508d96e8-953f-4a67-bc7d-8aba5878f38a@5.10.214.123:8080?mode=auto&path=\ud83d\udd12",
-      "host": "5.10.214.123",
-      "port": 8080,
-      "protocol": "vless",
-      "latency_ms": 2.6,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.171:443?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.171",
-      "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 2.6,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.18:443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.18",
-      "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 2.7,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.138:2083?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.138",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 2.9,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.73:8880?path=\ud83d\udd12",
-      "host": "5.10.214.73",
-      "port": 8880,
-      "protocol": "vless",
-      "latency_ms": 2.9,
+      "latency_ms": 5.6,
       "country": "AM"
     },
     {
@@ -111,7 +31,31 @@
       "host": "188.164.159.171",
       "port": 443,
       "protocol": "trojan",
-      "latency_ms": 2.9,
+      "latency_ms": 5.6,
+      "country": "AM"
+    },
+    {
+      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.81:8880?path=\ud83d\udd12",
+      "host": "5.10.214.81",
+      "port": 8880,
+      "protocol": "vless",
+      "latency_ms": 5.7,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.175:8443?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.175",
+      "port": 8443,
+      "protocol": "trojan",
+      "latency_ms": 5.9,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.171:443?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.171",
+      "port": 443,
+      "protocol": "trojan",
+      "latency_ms": 5.9,
       "country": "AM"
     },
     {
@@ -119,47 +63,103 @@
       "host": "188.164.159.91",
       "port": 2083,
       "protocol": "trojan",
-      "latency_ms": 3.0,
+      "latency_ms": 6.1,
       "country": "AM"
     },
     {
-      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.138:8880?path=\ud83d\udd12",
-      "host": "5.10.214.138",
+      "uri": "trojan://Aimer@188.164.159.43:2083?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.43",
+      "port": 2083,
+      "protocol": "trojan",
+      "latency_ms": 6.1,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.98:2083?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.98",
+      "port": 2083,
+      "protocol": "trojan",
+      "latency_ms": 6.1,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.98:2083?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.98",
+      "port": 2083,
+      "protocol": "trojan",
+      "latency_ms": 6.2,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.43:2083?path=\ud83d\udd12",
+      "host": "188.164.159.43",
+      "port": 2083,
+      "protocol": "trojan",
+      "latency_ms": 6.2,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.74:8443?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.74",
+      "port": 8443,
+      "protocol": "trojan",
+      "latency_ms": 6.3,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.171:443?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.171",
+      "port": 443,
+      "protocol": "trojan",
+      "latency_ms": 6.5,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.18:443?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.18",
+      "port": 443,
+      "protocol": "trojan",
+      "latency_ms": 6.5,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://ttfang@5.10.215.216:2096?security=tls&sni=\ud83d\udd12",
+      "host": "5.10.215.216",
+      "port": 2096,
+      "protocol": "trojan",
+      "latency_ms": 6.6,
+      "country": "AM"
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.18:443?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.18",
+      "port": 443,
+      "protocol": "trojan",
+      "latency_ms": 6.6,
+      "country": "AM"
+    },
+    {
+      "uri": "vless://0132166f-e702-48ed-a9e7-b07af768faf8@5.10.214.251:8880?allowInsecure=0&sni=\ud83d\udd12",
+      "host": "5.10.214.251",
       "port": 8880,
       "protocol": "vless",
-      "latency_ms": 3.2,
+      "latency_ms": 6.7,
       "country": "AM"
     },
     {
-      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=\ud83d\udd12",
-      "host": "5.10.214.123",
-      "port": 8880,
-      "protocol": "vless",
-      "latency_ms": 4.0,
+      "uri": "trojan://Aimer@188.164.159.175:8443?type=ws&sni=\ud83d\udd12",
+      "host": "188.164.159.175",
+      "port": 8443,
+      "protocol": "trojan",
+      "latency_ms": 6.7,
       "country": "AM"
     },
     {
-      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&note=volt____network&sni=\ud83d\udd12",
-      "host": "77.91.68.70",
-      "port": 55983,
-      "protocol": "vless",
-      "latency_ms": 201.7,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&spx=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=tcp&sni=\ud83d\udd12",
-      "host": "77.91.68.70",
-      "port": 55983,
-      "protocol": "vless",
-      "latency_ms": 208.4,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&spx=%2F%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%3Fed%3D2560&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM\ud83c\udde6\ud83c\uddf2",
-      "host": "77.91.68.70",
-      "port": 55983,
-      "protocol": "vless",
-      "latency_ms": 209.3,
+      "uri": "trojan://Aimer@188.164.159.43:2083?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.43",
+      "port": 2083,
+      "protocol": "trojan",
+      "latency_ms": 7.1,
       "country": "AM"
     },
     {
@@ -167,7 +167,7 @@
       "host": "77.91.68.70",
       "port": 55983,
       "protocol": "vless",
-      "latency_ms": 211.3,
+      "latency_ms": 154.8,
       "country": "AM"
     },
     {
@@ -175,7 +175,31 @@
       "host": "77.91.68.70",
       "port": 55983,
       "protocol": "vless",
-      "latency_ms": 212.8,
+      "latency_ms": 161.7,
+      "country": "AM"
+    },
+    {
+      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&note=volt____network&sni=\ud83d\udd12",
+      "host": "77.91.68.70",
+      "port": 55983,
+      "protocol": "vless",
+      "latency_ms": 164.9,
+      "country": "AM"
+    },
+    {
+      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&spx=%2F%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%40V2WRAY-%3Fed%3D2560&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM\ud83c\udde6\ud83c\uddf2",
+      "host": "77.91.68.70",
+      "port": 55983,
+      "protocol": "vless",
+      "latency_ms": 166.6,
+      "country": "AM"
+    },
+    {
+      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&spx=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=tcp&sni=\ud83d\udd12",
+      "host": "77.91.68.70",
+      "port": 55983,
+      "protocol": "vless",
+      "latency_ms": 166.7,
       "country": "AM"
     }
   ]

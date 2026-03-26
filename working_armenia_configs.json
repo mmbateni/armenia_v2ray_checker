@@ -1,141 +1,13 @@
 {
-  "checked_at": "2026-03-26 09:04 UTC",
-  "count": 22,
+  "checked_at": "2026-03-26 12:59 UTC",
+  "count": 2,
   "configs": [
     {
-      "uri": "trojan://Aimer@188.164.159.138:2083?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.138",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 5.5,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.74:8443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.74",
-      "port": 8443,
-      "protocol": "trojan",
-      "latency_ms": 5.5,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.45:8443?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.45",
-      "port": 8443,
-      "protocol": "trojan",
-      "latency_ms": 5.8,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.18:443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.18",
+      "uri": "vless://0c56d165-7005-4655-8b9e-4f6888b50318@178.160.229.241:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=8PRhLGCCDYTPM68-cJj2tpTKl-fAG0Q6Px1pq0LHtXE&security=reality&sid=395aaad7&sni=ipa.market.yandex.ru&type=tcp#REALITY|AM\ud83c\udde6\ud83c\uddf2",
+      "host": "178.160.229.241",
       "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 5.8,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.45:8443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.45",
-      "port": 8443,
-      "protocol": "trojan",
-      "latency_ms": 5.8,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.138:2083?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.138",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 6.0,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.45:8443?type=ws&sni=\ud83d\udd12",
-      "host": "188.164.159.45",
-      "port": 8443,
-      "protocol": "trojan",
-      "latency_ms": 6.0,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.107:2096?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.107",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 6.2,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.55:2096?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.55",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 6.2,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://ttfang@5.10.214.216:2096?security=tls&sni=\ud83d\udd12",
-      "host": "5.10.214.216",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 6.3,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.55:2096?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.55",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 6.3,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://ttfang@5.10.215.216:2096?security=tls&sni=\ud83d\udd12",
-      "host": "5.10.215.216",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 6.4,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.107:2096?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.107",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 6.4,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.18:443?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.18",
-      "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 6.6,
-      "country": "AM"
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.220:2083?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.220",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 6.7,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://583ceab3-4022-4553-9158-9bedc625ad4e@5.10.214.177:8880?allowInsecure=0&sni=\ud83d\udd12",
-      "host": "5.10.214.177",
-      "port": 8880,
       "protocol": "vless",
-      "latency_ms": 6.7,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@5.10.214.213:8880?allowInsecure=0&sni=\ud83d\udd12",
-      "host": "5.10.214.213",
-      "port": 8880,
-      "protocol": "vless",
-      "latency_ms": 7.3,
+      "latency_ms": 197.1,
       "country": "AM"
     },
     {
@@ -143,39 +15,7 @@
       "host": "77.91.68.70",
       "port": 55983,
       "protocol": "vless",
-      "latency_ms": 149.4,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&note=volt____network&sni=\ud83d\udd12",
-      "host": "77.91.68.70",
-      "port": 55983,
-      "protocol": "vless",
-      "latency_ms": 149.5,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&spx=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=tcp&sni=\ud83d\udd12",
-      "host": "77.91.68.70",
-      "port": 55983,
-      "protocol": "vless",
-      "latency_ms": 150.2,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=\ud83d\udd12",
-      "host": "77.91.68.70",
-      "port": 55983,
-      "protocol": "vless",
-      "latency_ms": 150.4,
-      "country": "AM"
-    },
-    {
-      "uri": "vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?encryption=none&security=reality&sni=\ud83d\udd12",
-      "host": "77.91.68.70",
-      "port": 55983,
-      "protocol": "vless",
-      "latency_ms": 152.2,
+      "latency_ms": 209.8,
       "country": "AM"
     }
   ]

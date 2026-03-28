@@ -1,28 +1,13 @@
-# TROJAN — Armenia — 2026-03-27 20:49 UTC
-# 25 configs
+# TROJAN — Armenia — 2026-03-28 01:36 UTC
+# 10 configs
 
-trojan://Aimer@188.164.159.171:443?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.107:2096?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.175:8443?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.138:2083?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.241:2096?security=tls&sni=🔒
-trojan://Aimer@188.164.159.55:2096?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.171:443?security=tls&sni=🔒
-trojan://Aimer@188.164.159.241:2096?type=ws&sni=🔒
+trojan://Aimer@188.164.159.91:2083?allowInsecure=1&sni=🔒
 trojan://ttfang@5.10.214.216:2096?security=tls&sni=🔒
-trojan://Aimer@188.164.159.220:2083?security=tls&sni=🔒
-trojan://Aimer@188.164.159.45:8443?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.43:2083?path=🔒
-trojan://Aimer@188.164.159.45:8443?type=ws&sni=🔒
-trojan://Aimer@188.164.159.22:2096?path=🔒
-trojan://Aimer@188.164.159.43:2083?security=tls&sni=🔒
-trojan://Aimer@188.164.159.138:2083?security=tls&sni=🔒
-trojan://Aimer@188.164.159.241:2096?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.43:2083?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.55:2096?security=tls&sni=🔒
-trojan://Aimer@188.164.159.175:8443?security=tls&sni=🔒
 trojan://Aimer@188.164.159.74:8443?security=tls&sni=🔒
-trojan://Aimer@188.164.159.45:8443?security=tls&sni=🔒
-trojan://Aimer@188.164.159.107:2096?security=tls&sni=🔒
+trojan://ttfang@5.10.215.216:2096?security=tls&sni=🔒
+trojan://Aimer@188.164.159.171:443?allowInsecure=1&sni=🔒
+trojan://Aimer@188.164.159.55:2096?security=tls&sni=🔒
+trojan://Aimer@188.164.159.171:443?security=tls&sni=🔒
+trojan://Aimer@188.164.159.91:2083?security=tls&sni=🔒
+trojan://Aimer@188.164.159.55:2096?allowInsecure=1&sni=🔒
 trojan://Aimer@188.164.159.171:443?type=ws&sni=🔒
-trojan://Aimer@188.164.159.175:8443?type=ws&sni=🔒

@@ -1,4 +1,4 @@
-# SS — Armenia — 2026-03-30 09:23 UTC
+# SS — Armenia — 2026-03-30 13:17 UTC
 # 1 configs
 
 ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=🔒

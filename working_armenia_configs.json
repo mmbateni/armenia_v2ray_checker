@@ -1,37 +1,10 @@
 {
-  "checked_at": "2026-04-01 17:12 UTC",
-  "count": 24,
+  "checked_at": "2026-04-01 20:54 UTC",
+  "count": 21,
   "configs": [
     {
-      "uri": "trojan://Aimer@188.164.159.171:443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.171",
-      "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 1.7,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.171:443?type=ws&sni=\ud83d\udd12",
-      "host": "188.164.159.171",
-      "port": 443,
-      "protocol": "trojan",
-      "latency_ms": 1.8,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.241:2096?type=ws&sni=\ud83d\udd12",
-      "host": "188.164.159.241",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 1.9,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.241:2096?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.241",
+      "uri": "trojan://Aimer@188.164.159.55:2096?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.55",
       "port": 2096,
       "protocol": "trojan",
       "latency_ms": 2.0,
@@ -39,9 +12,18 @@
       "iran_bridge": true
     },
     {
-      "uri": "trojan://Aimer@188.164.159.107:2096?allowInsecure=1&sni=\ud83d\udd12",
+      "uri": "trojan://Aimer@188.164.159.107:2096?security=tls&sni=\ud83d\udd12",
       "host": "188.164.159.107",
       "port": 2096,
+      "protocol": "trojan",
+      "latency_ms": 2.0,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.74:8443?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.74",
+      "port": 8443,
       "protocol": "trojan",
       "latency_ms": 2.0,
       "country": "AM",
@@ -52,25 +34,16 @@
       "host": "5.10.214.177",
       "port": 8880,
       "protocol": "vless",
-      "latency_ms": 2.1,
+      "latency_ms": 2.0,
       "country": "AM",
       "iran_bridge": true
     },
     {
-      "uri": "trojan://Aimer@188.164.159.91:2083?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.91",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 2.1,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://ttfang@5.10.214.216:2096?security=tls&sni=\ud83d\udd12",
-      "host": "5.10.214.216",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 2.1,
+      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=\ud83d\udd12",
+      "host": "5.10.214.123",
+      "port": 8880,
+      "protocol": "vless",
+      "latency_ms": 2.0,
       "country": "AM",
       "iran_bridge": true
     },
@@ -84,65 +57,11 @@
       "iran_bridge": true
     },
     {
-      "uri": "trojan://Aimer@188.164.159.107:2096?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.107",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 2.2,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "vless://0132166f-e702-48ed-a9e7-b07af768faf8@5.10.214.251:8880?allowInsecure=0&sni=\ud83d\udd12",
-      "host": "5.10.214.251",
+      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.215.208:8880?path=\ud83d\udd12",
+      "host": "5.10.215.208",
       "port": 8880,
       "protocol": "vless",
       "latency_ms": 2.2,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=\ud83d\udd12",
-      "host": "5.10.214.123",
-      "port": 8880,
-      "protocol": "vless",
-      "latency_ms": 2.5,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.98:2083?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.98",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 2.5,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.241:2096?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.241",
-      "port": 2096,
-      "protocol": "trojan",
-      "latency_ms": 2.6,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.98:2083?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.98",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 2.6,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=\ud83d\udd12",
-      "host": "5.10.214.123",
-      "port": 8880,
-      "protocol": "ss",
-      "latency_ms": 2.7,
       "country": "AM",
       "iran_bridge": true
     },
@@ -151,25 +70,61 @@
       "host": "5.10.214.123",
       "port": 8080,
       "protocol": "vless",
-      "latency_ms": 2.7,
+      "latency_ms": 2.3,
       "country": "AM",
       "iran_bridge": true
     },
     {
-      "uri": "trojan://Aimer@188.164.159.171:443?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.171",
-      "port": 443,
+      "uri": "trojan://Aimer@188.164.159.138:2083?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.138",
+      "port": 2083,
       "protocol": "trojan",
-      "latency_ms": 2.8,
+      "latency_ms": 2.3,
       "country": "AM",
       "iran_bridge": true
     },
     {
-      "uri": "trojan://Aimer@188.164.159.175:8443?allowInsecure=1&sni=\ud83d\udd12",
-      "host": "188.164.159.175",
-      "port": 8443,
+      "uri": "trojan://Aimer@188.164.159.107:2096?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.107",
+      "port": 2096,
       "protocol": "trojan",
-      "latency_ms": 2.9,
+      "latency_ms": 2.3,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.241:2096?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.241",
+      "port": 2096,
+      "protocol": "trojan",
+      "latency_ms": 2.3,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.241:2096?type=ws&sni=\ud83d\udd12",
+      "host": "188.164.159.241",
+      "port": 2096,
+      "protocol": "trojan",
+      "latency_ms": 2.3,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.138:2083?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.138",
+      "port": 2083,
+      "protocol": "trojan",
+      "latency_ms": 2.4,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.241:2096?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.241",
+      "port": 2096,
+      "protocol": "trojan",
+      "latency_ms": 2.4,
       "country": "AM",
       "iran_bridge": true
     },
@@ -178,7 +133,16 @@
       "host": "5.10.215.216",
       "port": 2096,
       "protocol": "trojan",
-      "latency_ms": 3.0,
+      "latency_ms": 2.5,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.123:8880?path=\ud83d\udd12",
+      "host": "5.10.214.123",
+      "port": 8880,
+      "protocol": "ss",
+      "latency_ms": 2.5,
       "country": "AM",
       "iran_bridge": true
     },
@@ -187,34 +151,43 @@
       "host": "188.164.159.175",
       "port": 8443,
       "protocol": "trojan",
-      "latency_ms": 3.0,
+      "latency_ms": 2.5,
       "country": "AM",
       "iran_bridge": true
     },
     {
-      "uri": "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.138:8880?path=\ud83d\udd12",
-      "host": "5.10.214.138",
-      "port": 8880,
-      "protocol": "vless",
-      "latency_ms": 3.0,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.91:2083?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.91",
-      "port": 2083,
-      "protocol": "trojan",
-      "latency_ms": 3.0,
-      "country": "AM",
-      "iran_bridge": true
-    },
-    {
-      "uri": "trojan://Aimer@188.164.159.74:8443?security=tls&sni=\ud83d\udd12",
-      "host": "188.164.159.74",
+      "uri": "trojan://Aimer@188.164.159.175:8443?allowInsecure=1&sni=\ud83d\udd12",
+      "host": "188.164.159.175",
       "port": 8443,
       "protocol": "trojan",
-      "latency_ms": 3.0,
+      "latency_ms": 2.6,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "trojan://Aimer@188.164.159.55:2096?security=tls&sni=\ud83d\udd12",
+      "host": "188.164.159.55",
+      "port": 2096,
+      "protocol": "trojan",
+      "latency_ms": 2.8,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "vless://a47fb050-8477-4d86-9332-5f687f572d94@194.156.103.213:1888?type=tcp&security=reality&flow=xtls-rprx-vision&fp=&pbk=GaVpyGU5Xqyd5SYmchrCIajjTiXF69bmCnUdftmrwTM&sid=6b&sni=\ud83d\udd12",
+      "host": "194.156.103.213",
+      "port": 1888,
+      "protocol": "vless",
+      "latency_ms": 208.4,
+      "country": "AM",
+      "iran_bridge": true
+    },
+    {
+      "uri": "vless://a47fb050-8477-4d86-9332-5f687f572d94@194.156.103.213:1888?type=tcp&security=reality&flow=xtls-rprx-vision&fp=&pbk=GaVpyGU5Xqyd5SYmchrCIajjTiXF69bmCnUdftmrwTM&sid=6b&sni=www.kernel.org&path=&host=#@v2rayconfigamir",
+      "host": "194.156.103.213",
+      "port": 1888,
+      "protocol": "vless",
+      "latency_ms": 214.4,
       "country": "AM",
       "iran_bridge": true
     }

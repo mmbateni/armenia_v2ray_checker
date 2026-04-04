@@ -1,21 +1,20 @@
-# TROJAN — Armenia — 2026-04-04 16:43 UTC
-# 18 configs
+# TROJAN — Armenia — 2026-04-04 20:40 UTC
+# 17 configs
 
-trojan://Aimer@188.164.159.43:2083?allowInsecure=1&sni=🔒
-trojan://ttfang@5.10.214.216:2096?security=tls&sni=🔒
-trojan://Aimer@188.164.159.74:8443?security=tls&sni=🔒
-trojan://Aimer@188.164.159.138:2083?security=tls&sni=🔒
-trojan://Aimer@188.164.159.43:2083?security=tls&sni=🔒
-trojan://Aimer@188.164.159.43:2083?path=🔒
-trojan://Aimer@188.164.159.241:2096?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.18:443?security=tls&sni=🔒
-trojan://Aimer@188.164.159.241:2096?type=ws&sni=🔒
-trojan://Aimer@188.164.159.138:2083?allowInsecure=1&sni=🔒
-trojan://Aimer@188.164.159.241:2096?security=tls&sni=🔒
+trojan://Aimer@188.164.159.91:2083?security=tls&sni=🔒
+trojan://Aimer@188.164.159.55:2096?allowInsecure=1&sni=🔒
+trojan://ttfang@5.10.215.216:2096?security=tls&sni=🔒
+trojan://Aimer@188.164.159.45:8443?security=tls&sni=🔒
+trojan://Aimer@188.164.159.220:2083?security=tls&sni=🔒
 trojan://Aimer@188.164.159.98:2083?allowInsecure=1&sni=🔒
 trojan://Aimer@188.164.159.18:443?allowInsecure=1&sni=🔒
+trojan://Aimer@188.164.159.45:8443?type=ws&sni=🔒
+trojan://Aimer@188.164.159.241:2096?security=tls&sni=🔒
+trojan://Aimer@188.164.159.18:443?security=tls&sni=🔒
+trojan://Aimer@188.164.159.241:2096?allowInsecure=1&sni=🔒
 trojan://Aimer@188.164.159.98:2083?security=tls&sni=🔒
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@170.168.102.234:2083?allowInsecure=1&host=xo.e0f.cx&path=/trojan-ws&sni=xo.e0f.cx&type=ws#🏆47@oneclickvpnkeys
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@170.168.102.234:2083?allowInsecure=1&host=xo.e0f.cx&path=%2Ftrojan-ws&sni=xo.e0f.cx&type=ws#%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20383489
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@170.168.102.234:2083?allowInsecure=1&host=xo.e0f.cx&path=%2Ftrojan-ws&sni=xo.e0f.cx&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AAM
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@170.168.102.234:2083?allowInsecure=1&host=xo.e0f.cx&path=/trojan-ws&sni=xo.e0f.cx&type=ws#%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20201209
+trojan://Aimer@188.164.159.74:8443?security=tls&sni=🔒
+trojan://Aimer@188.164.159.55:2096?security=tls&sni=🔒
+trojan://Aimer@188.164.159.91:2083?allowInsecure=1&sni=🔒
+trojan://Aimer@188.164.159.241:2096?type=ws&sni=🔒
+trojan://Aimer@188.164.159.45:8443?allowInsecure=1&sni=🔒

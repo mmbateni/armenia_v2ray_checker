@@ -1,3 +1,4 @@
-# SS — Armenia — 2026-04-05 20:44 UTC
-# 0 configs
+# SS — Armenia — 2026-04-06 01:48 UTC
+# 1 configs
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVS0s1WFV2aklsT2tlVGJCQTBuZllo@2.56.207.150:8443

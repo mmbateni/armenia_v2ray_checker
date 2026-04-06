@@ -1,6 +1,5 @@
-# VLESS — Armenia — 2026-04-05 20:44 UTC
-# 3 configs
+# VLESS — Armenia — 2026-04-06 01:48 UTC
+# 2 configs
 
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.81:8880?path=🔒
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@5.10.214.177:8880?allowInsecure=0&sni=🔒
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.138:8880?path=🔒

@@ -1,17 +1,8 @@
-# VLESS — Armenia — 2026-05-04 17:43 UTC
-# 14 configs
+# VLESS — Armenia — 2026-05-04 21:20 UTC
+# 5 configs
 
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.138:8880?path=🔒
-vless://583ceab3-4022-4553-9158-9bedc625ad4e@5.10.214.177:8880?allowInsecure=0&sni=🔒
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.164.158.138:2096?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&fp=chrome&host=sni.111000.indevs.in&path=🔒
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.10.214.191:2096?allowInsecure=1&encryption=none&host=sni.my111000.tech&path=Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F&security=tls&sni=sni.my111000.tech&type=ws#%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20457613
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.10.214.191:2096?allowInsecure=1&encryption=none&host=sni.my111000.tech&path=Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F&security=tls&sni=sni.my111000.tech&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-FlowerMound-628ms-Cloudflare%20Inc.
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.73:8880?path=🔒
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.215.208:8880?path=🔒
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@5.10.214.213:8880?allowInsecure=0&sni=🔒
 vless://0132166f-e702-48ed-a9e7-b07af768faf8@5.10.214.251:8880?allowInsecure=0&sni=🔒
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.10.214.191:2096?allowInsecure=1&encryption=none&host=sni.my111000.tech&path=Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F&security=tls&sni=sni.my111000.tech&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AUS
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.164.158.138:2096?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&fp=chrome&host=sni.111000.indevs.in&path=/&security=tls&sni=sni.111000.indevs.in&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-FlowerMound-601ms-Cloudflare%20Inc.
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.10.214.191:2096?allowInsecure=1&encryption=none&host=sni.my111000.tech&path=🔒
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.10.214.191:2096?allowInsecure=1&encryption=none&host=sni.my111000.tech&path=Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F&security=tls&sni=sni.my111000.tech&type=ws#RELAY🚩
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.164.158.138:2096?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&fp=chrome&host=sni.111000.indevs.in&path=/&security=tls&sni=sni.111000.indevs.in&type=ws#🥏43@oneclickvpnkeys
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@5.10.214.213:8880?allowInsecure=0&sni=🔒
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.215.208:8880?path=🔒
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.138:8880?path=🔒
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.73:8880?path=🔒

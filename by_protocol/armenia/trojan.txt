@@ -1,4 +1,4 @@
-# TROJAN — Armenia + Azerbaijan — 2026-07-09 07:57 UTC
+# TROJAN — Armenia — 2026-07-09 07:57 UTC
 # 41 configs
 
 trojan://Aimer@188.164.159.138:2083?allowInsecure=1&sni=epgb.aimercc.dpdns.org&type=ws&host=epgb.aimercc.dpdns.org&path=/?ed=2560#

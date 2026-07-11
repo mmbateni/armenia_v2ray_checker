@@ -1,4 +1,4 @@
-# SS — Armenia + Azerbaijan — 2026-07-11 06:35 UTC
+# SS — Armenia + Azerbaijan — 2026-07-11 13:25 UTC
 # 1 configs
 
 ss://a3ab68bd-e835-5129-b8c5-335a709e8b3f@185.83.127.82:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=h9aR_LyBrt2_zfbJYMZAGqfjk4zumCVuwOXzrFJEK1A&amp;fp=firefox&amp;type=grpc&amp;serviceName=grpc-play-7f3a92&amp;sni=play.google.com&amp;sid=5b3aa0bdbe8d6a0e#

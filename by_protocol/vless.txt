@@ -1,8 +1,11 @@
-# VLESS — Armenia + Azerbaijan — 2026-07-29 21:01 UTC
-# 5 configs
+# VLESS — Armenia + Azerbaijan — 2026-07-30 01:44 UTC
+# 8 configs
 
 vless://d407defe-cd4f-4d32-a3b1-47c2c813c50d@31.43.191.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&security=reality&sni=tehno.store&type=tcp#
 vless://17a1ffce-0cf5-b29b-ba3c-2f2300000000@91.195.254.34:443?path=/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN&security=tls&encryption=none&insecure=0&host=netlivpn1048.shshh.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=netlivpn1048.shshh.workers.dev#
-vless://a962e5f4-4bb7-4cf9-b32a-8d4e4f2aa805@az1.rebata.ir:2040?security=reality&encryption=none&pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=9634e9421a05e65f#🇦🇿125980
-vless://a962e5f4-4bb7-4cf9-b32a-8d4e4f2aa805@az1.rebata.ir:2040?security=reality&amp;encryption=none&amp;pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=www.yahoo.com&amp;sid=9634e9421a05e65f#
-vless://a962e5f4-4bb7-4cf9-b32a-8d4e4f2aa805@az1.rebata.ir:2040?security=reality&encryption=none&pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=9634e9421a05e65f#
+vless://a3ab68bd-e835-5129-b8c5-335a709e8b3f@185.83.127.82:443?mode=gun&security=reality&encryption=none&pbk=h9aR_LyBrt2_zfbJYMZAGqfjk4zumCVuwOXzrFJEK1A&fp=chrome&type=grpc&serviceName=grpc-play-7f3a92&sni=play.google.com&sid=5b3aa0bdbe8d6a0e#🇦🇿@V2rayng_Fast
+vless://a3ab68bd-e835-5129-b8c5-335a709e8b3f@185.83.127.82:443?mode=gun&security=reality&encryption=none&pbk=h9aR_LyBrt2_zfbJYMZAGqfjk4zumCVuwOXzrFJEK1A&fp=firefox&type=grpc&serviceName=grpc-play-7f3a92&sni=play.google.com&sid=5b3aa0bdbe8d6a0e#
+vless://a3ab68bd-e835-5129-b8c5-335a709e8b3f@185.83.127.82:443?mode=gun&security=reality&encryption=none&pbk=h9aR_LyBrt2_zfbJYMZAGqfjk4zumCVuwOXzrFJEK1A&fp=chrome&type=grpc&serviceName=grpc-play-7f3a92&sni=play.google.com&sid=5b3aa0bdbe8d6a0e#kurdconfig
+vless://a3ab68bd-e835-5129-b8c5-335a709e8b3f@185.83.127.82:443?mode=gun&security=reality&encryption=none&pbk=h9aR_LyBrt2_zfbJYMZAGqfjk4zumCVuwOXzrFJEK1A&fp=chrome&type=grpc&serviceName=grpc-play-7f3a92&sni=play.google.com&sid=5b3aa0bdbe8d6a0e#
+vless://a3ab68bd-e835-5129-b8c5-335a709e8b3f@185.83.127.82:443?mode=gun&security=reality&encryption=none&pbk=h9aR_LyBrt2_zfbJYMZAGqfjk4zumCVuwOXzrFJEK1A&fp=chrome&type=grpc&serviceName=grpc-play-7f3a92&sni=play.google.com&sid=5b3aa0bdbe8d6a0e#🇦🇿@FreakConfig
+vless://a3ab68bd-e835-5129-b8c5-335a709e8b3f@185.83.127.82:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=h9aR_LyBrt2_zfbJYMZAGqfjk4zumCVuwOXzrFJEK1A&amp;fp=firefox&amp;type=grpc&amp;serviceName=grpc-play-7f3a92&amp;sni=play.google.com&amp;sid=5b3aa0bdbe8d6a0e#

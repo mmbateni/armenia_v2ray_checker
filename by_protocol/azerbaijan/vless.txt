@@ -1,4 +1,4 @@
-# VLESS — Azerbaijan — 2026-08-02 13:19 UTC
+# VLESS — Azerbaijan — 2026-08-02 17:08 UTC
 # 2 configs
 
 vless://d407defe-cd4f-4d32-a3b1-47c2c813c50d@31.43.191.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&security=reality&sni=tehno.store&type=tcp#

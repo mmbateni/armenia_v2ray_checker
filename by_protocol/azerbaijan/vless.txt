@@ -1,3 +1,4 @@
-# VLESS — Azerbaijan — 2026-08-02 21:01 UTC
-# 0 configs
+# VLESS — Azerbaijan — 2026-08-03 02:14 UTC
+# 1 configs
 
+vless://713056db-4add-45f1-b533-067d7ea81372@94.20.58.252:1443?type=tcp&headerType=none&security=reality&encryption=none&sni=baracuda.kupivodku.top&fp=firefox&pbk=gKAETXwalM7wd8kZAIXLCgmJZskCoe4uZbFS6NMrK1w&sid=0441f3e34348cb45&flow=xtls-rprx-vision#

@@ -1,3 +1,4 @@
-# SS — Azerbaijan — 2026-08-13 05:50 UTC
-# 0 configs
+# SS — Azerbaijan — 2026-08-13 09:28 UTC
+# 1 configs
 
+ss://bf58f3cd-7c8c-4650-bd7a-028df18b3ba0@azar-sdvf-sad3qeasdd-fgresedfsadwqewr-rjhgreas-fewrfghjhgwfq.supros.ir:2026?security=reality&amp;encryption=none&amp;pbk=484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8&amp;host=play.google.com&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=updates.cdn-apple.com&amp;sid=ca930e5d4a603c6a#

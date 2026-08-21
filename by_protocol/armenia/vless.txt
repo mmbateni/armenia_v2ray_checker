@@ -1,5 +1,25 @@
-# VLESS — Armenia — 2026-08-21 04:54 UTC
-# 2 configs
+# VLESS — Armenia — 2026-08-21 08:54 UTC
+# 22 configs
 
-vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.26.234:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
 vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.238:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
+vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.26.234:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
+vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.239:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
+vless://d55e8781-2ad2-4494-839c-53dacb2c7301@pparm.hxno.ir:4040?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=Wx6tzLQGcy7izErf95kBBhajTI5AoGHl80kaBQWYlCc&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=99798e100a65fb5a#
+vless://d55e8781-2ad2-4494-839c-53dacb2c7301@pparm.hxno.ir:4040?security=reality&amp;encryption=none&amp;pbk=Wx6tzLQGcy7izErf95kBBhajTI5AoGHl80kaBQWYlCc&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=play.google.com&amp;sid=99798e100a65fb5a#
+vless://d55e8781-2ad2-4494-839c-53dacb2c7301@pparm.hxno.ir:4040?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=Wx6tzLQGcy7izErf95kBBhajTI5AoGHl80kaBQWYlCc&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=99798e100a65fb5a#@GozargahAzad|🇦🇲
+vless://d55e8781-2ad2-4494-839c-53dacb2c7301@pparm.hxno.ir:4040?security=reality&encryption=none&pbk=Wx6tzLQGcy7izErf95kBBhajTI5AoGHl80kaBQWYlCc&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=99798e100a65fb5a#🇦🇲148774
+vless://d55e8781-2ad2-4494-839c-53dacb2c7301@pparm.hxno.ir:4040?security=reality&encryption=none&pbk=Wx6tzLQGcy7izErf95kBBhajTI5AoGHl80kaBQWYlCc&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=99798e100a65fb5a#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&type=tcp&sni=yahoo.com&fp=chrome&sid=0e&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&encryption=none#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1594ms-365.partners%20INC
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?encryption=none&type=raw&headerType=none&security=reality&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sni=yahoo.com&sid=0e#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&type=tcp%C2%ACe%3Dvolt____network&sni=yahoo.com&fp=chrome&sid=0e&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&spx=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=tcp&sni=yahoo.com&sid=0e#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=yahoo.com&fp=chrome&sid=0e&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&note=volt____network&sni=yahoo.com&sid=0e#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&security=reality&encryption=none&sni=yahoo.com&fp=chrome&alpn=http%252F1.1&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&headerType=none&allowInsecure=1#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&security=reality&sid=0e&sni=yahoo.com&type=tcp#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&security=reality&sid=0e&sni=yahoo.com&type=tcp#REALITY|AM🇦🇲

@@ -1,6 +1,4 @@
-# VLESS — Armenia — 2026-08-21 20:38 UTC
-# 3 configs
+# VLESS — Armenia — 2026-08-22 01:04 UTC
+# 1 configs
 
-vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.238:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
 vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.26.234:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
-vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.239:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#

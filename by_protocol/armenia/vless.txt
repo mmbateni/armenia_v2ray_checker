@@ -1,13 +1,12 @@
-# VLESS — Armenia — 2026-09-02 22:34 UTC
-# 10 configs
+# VLESS — Armenia — 2026-09-03 02:30 UTC
+# 9 configs
 
-vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.26.234:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
 vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.238:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
 vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.239:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@178.160.229.238:9443?type=grpc&security=reality&fp=firefox&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&sid=1388c268&sni=api-maps.yandex.ru&serviceName=grpc#
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@am.alertyagency.com:9443?type=grpc&security=reality&fp=firefox&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&sid=1388c268&sni=api-maps.yandex.ru&serviceName=grpc&spx=/#
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@am.alertyagency.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&sid=1388c268&sni=api-maps.yandex.ru#
+vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.26.234:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
+vless://17a1ffce-0cf5-b29b-ba3c-2f2300000000@91.195.254.34:443?path=/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN&security=tls&encryption=none&insecure=0&host=netlivpn1048.shshh.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=netlivpn1048.shshh.workers.dev#
 vless://953e3703-4ddc-49a7-a087-c96049d22340@178.160.231.37:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=3eCxMv-u7Hnch7_YDkY2jVunI3gXyNEkt_paI6D40zU&sid=abcdedcd72&sni=gateway.icloud.com#
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1713ms-Partners%20INC
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20544412
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#🇦🇲
+vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@am.alertyagency.com:9443?type=grpc&security=reality&fp=firefox&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&sid=1388c268&sni=api-maps.yandex.ru&serviceName=grpc&spx=/#
+vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@178.160.229.238:9443?type=grpc&security=reality&fp=firefox&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&sid=1388c268&sni=api-maps.yandex.ru&serviceName=grpc#
+vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@am.alertyagency.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&sid=1388c268&sni=api-maps.yandex.ru#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20387254

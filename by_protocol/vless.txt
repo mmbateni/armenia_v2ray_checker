@@ -1,12 +1,9 @@
-# VLESS — Armenia + Azerbaijan — 2026-09-06 08:38 UTC
-# 9 configs
+# VLESS — Armenia + Azerbaijan — 2026-09-06 15:05 UTC
+# 6 configs
 
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?flow=xtls-rprx-vision&fp=chrome&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&security=reality&sni=luminous-vortex.cdn.cachefleet.com&type=tcp#
 vless://d407defe-cd4f-4d32-a3b1-47c2c813c50d@31.43.191.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&security=reality&sni=tehno.store&type=tcp#
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#🇦🇿139886
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#@NOFiLTERING2🇩🇪
-vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.239:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
-vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.238:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
 vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.26.234:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@am.alertyagency.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&sid=1388c268&sni=api-maps.yandex.ru#
+vless://17a1ffce-0cf5-b29b-ba3c-2f2300000000@91.195.254.34:443?path=/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN&security=tls&encryption=none&insecure=0&host=netlivpn1048.shshh.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=netlivpn1048.shshh.workers.dev#
 vless://a5194487-9b9a-462f-a047-ac7580d80201@94.20.154.22:443?alpn=http%2F1.1&encryption=none&host=kotakbla.b-cdn.net&path=%2F&security=tls&sni=kotakbla.b-cdn.net&type=ws&fp=firefox#
+vless://451e66db-b18f-4e29-a670-1431353f9b28@evnyoi3rx4yb.gorvexo.ir:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=amp-api-edge.apps.apple.com&fp=firefox&pbk=bdtDRp63jl4nMZRPN2wNlKJ6Yt77SF1uSrfkQ8NBKks&sid=03290875973f3e16&type=tcp&headerType=none#
+vless://bf3d436d-cbc0-49b6-a818-45d190949212@2.27.27.239:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#

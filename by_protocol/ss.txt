@@ -1,3 +1,4 @@
-# SS — Armenia + Azerbaijan — 2026-09-06 22:15 UTC
-# 0 configs
+# SS — Armenia + Azerbaijan — 2026-09-07 02:25 UTC
+# 1 configs
 
+ss://30980395-1884-483f-95d1-2b7c26928e3c@Az.horlutr.ir:11437?security=reality&amp;encryption=none&amp;pbk=XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=amp-api-edge.apps.apple.com&amp;sid=7de83d0e31eb75ef#

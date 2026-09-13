@@ -1,23 +1,22 @@
-# VLESS — Azerbaijan — 2026-09-13 18:50 UTC
-# 20 configs
+# VLESS — Azerbaijan — 2026-09-13 22:20 UTC
+# 19 configs
 
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#💫@ATOVPN
-vless://d407defe-cd4f-4d32-a3b1-47c2c813c50d@31.43.191.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&security=reality&sni=tehno.store&type=tcp#
+vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#@NOFiLTERING2🇩🇪
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#REALITY|ZA🇿🇦
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#@prrofile_purple
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&host=/?JOIN_bede_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#@NOFiLTERING2🇩🇪
-vless://1a67126c-b9c4-4e78-b96e-eabd4002ab0c@evnyoi3rx4yb.fate-rehan.ir:443?security=reality&encryption=none&pbk=bdtDRp63jl4nMZRPN2wNlKJ6Yt77SF1uSrfkQ8NBKks&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=fb8f35b7a67cf423#
-vless://c12db015-a63c-43e5-a744-6398a90373b5@180.149.45.140:21289?type=tcp&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus#
-vless://a5194487-9b9a-462f-a047-ac7580d80201@94.20.154.22:443?alpn=http%2F1.1&encryption=none&host=kotakbla.b-cdn.net&path=%2F&security=tls&sni=kotakbla.b-cdn.net&type=ws&fp=firefox#
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?encryption=none&type=raw&headerType=none&security=none#
+vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#💫@ATOVPN
 vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?&type=tcp&headerType=none&host=basalam.horqen.ir&path=%2F#
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#✨
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#
 vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#@meliproxyy
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#Tel-@ProxyMtAlpha💌
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#vpnsal
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#@vasl_bashim
 vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#@meliproxyy
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#
+vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#@vasl_bashim
+vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#Tel-@ProxyMtAlpha💌
 vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&amp;alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&amp;encryption=none&amp;headerType=none&amp;type=tcp#
+vless://c12db015-a63c-43e5-a744-6398a90373b5@180.149.45.140:21289?type=tcp&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus#
+vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#
+vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#vpnsal
+vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&encryption=none&headerType=none&type=tcp#
+vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#✨
+vless://a5194487-9b9a-462f-a047-ac7580d80201@94.20.154.22:443?alpn=http%2F1.1&encryption=none&host=kotakbla.b-cdn.net&path=%2F&security=tls&sni=kotakbla.b-cdn.net&type=ws&fp=firefox#
+vless://1a67126c-b9c4-4e78-b96e-eabd4002ab0c@evnyoi3rx4yb.fate-rehan.ir:443?security=reality&encryption=none&pbk=bdtDRp63jl4nMZRPN2wNlKJ6Yt77SF1uSrfkQ8NBKks&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=fb8f35b7a67cf423#
+vless://1a67126c-b9c4-4e78-b96e-eabd4002ab0c@evnyoi3rx4yb.fate-rehan.ir:443?security=reality&encryption=none&pbk=bdtDRp63jl4nMZRPN2wNlKJ6Yt77SF1uSrfkQ8NBKks&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=region1.app-analytics-services-att.com&sid=4d2ab40d91135972#

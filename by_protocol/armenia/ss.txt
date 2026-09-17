@@ -1,4 +1,3 @@
-# SS — Armenia — 2026-09-17 16:19 UTC
-# 1 configs
+# SS — Armenia — 2026-09-17 19:49 UTC
+# 0 configs
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBZldKWFRmeEF1UU1JX21ZazVjanlEc2lGVTQyNUpjWA==@88.218.94.15:1080#AM%F0%9F%87%A6%F0%9F%87%B2+%7C+88.218.94.15-1080+%7C+268.4ms

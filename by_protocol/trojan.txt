@@ -1,4 +1,4 @@
-# TROJAN — Armenia + Azerbaijan — 2026-09-18 22:26 UTC
+# TROJAN — Armenia + Azerbaijan — 2026-09-19 02:41 UTC
 # 1 configs
 
 trojan://TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr@de2.x8lab.org:9433?path=%2Fchatbot&security=tls&insecure=0&host=de2.x8lab.org&fp=safari&type=ws&allowInsecure=0&sni=de2.x8lab.org#

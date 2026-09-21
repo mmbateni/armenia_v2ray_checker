@@ -1,4 +1,7 @@
-# SS — Armenia + Azerbaijan — 2026-09-20 22:28 UTC
-# 1 configs
+# SS — Armenia + Azerbaijan — 2026-09-21 02:53 UTC
+# 4 configs
 
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZjJOcTVZTG55Y2xQYVdSOG15Ny9WZGQzWlg4VVJuY1haTmx5NStIY1VTcz06T0V3dDNyZVVFR0liSjJUUDh1VjVKVGhaVjhRZ0xUUWxPSXlLVURTeDJ4bz0=@arm.drwsh.org:1943#
+ss://yakVV3oUoduFpO@180.149.44.182:443?security=reality&amp;encryption=none&amp;pbk=1hpQddP3pM6e50Y6vCPe2t3mjDExFeiWxMGWyeiIq28&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.icloud.com&amp;sid=948c2371#
+ss://yakVV3oUoduFpO@180.149.44.182:443?security=reality&encryption=none&pbk=1hpQddP3pM6e50Y6vCPe2t3mjDExFeiWxMGWyeiIq28&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=948c2371#EPODONIOS
+ss://yakVV3oUoduFpO@180.149.44.182:443?security=reality&encryption=none&pbk=1hpQddP3pM6e50Y6vCPe2t3mjDExFeiWxMGWyeiIq28&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=948c2371#🇦🇿177667

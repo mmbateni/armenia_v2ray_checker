@@ -1,12 +1,12 @@
-# VLESS — Armenia — 2026-09-26 15:46 UTC
+# VLESS — Armenia — 2026-09-26 19:15 UTC
 # 9 configs
 
-vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#
-vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#vpnsal
 vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#Telegram:
+vless://d0f0a880-0df1-48c9-bdf1-5669fb9483ce@aotocon.ggisopi.su:443?security=reality&encryption=none&pbk=SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aotocon.ggisopi.su#
+vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#vpnsal
+vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#
+vless://d0f0a880-0df1-48c9-bdf1-5669fb9483ce@aotocon.ggisopi.su:443?security=reality&encryption=none&pbk=SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aotocon.ggisopi.su#@i10VPN⁴
 vless://877317b3-c7e4-4f1d-af37-4f32e670bbd4@gaming.storm.montago-shop.ir:25260?security=none&encryption=mlkem768x25519plus.native.0rtt.cuN6cXnBDhYXhCEg94t_zLjTBFe03di3HkklXASjRRQ&host=play-apps-features.googleusercontent.com&headerType=http&type=tcp#
 vless://877317b3-c7e4-4f1d-af37-4f32e670bbd4@gaming.storm.montago-shop.ir:25260?security=none&encryption=mlkem768x25519plus.native.0rtt.cuN6cXnBDhYXhCEg94t_zLjTBFe03di3HkklXASjRRQ&host=play-apps-features.googleusercontent.com&headerType=http&type=tcp#@VEGAAS_VPN
 vless://17a1ffce-0cf5-b29b-ba3c-2f2300000000@91.195.254.34:443?path=/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN&security=tls&encryption=none&insecure=0&host=netlivpn1048.shshh.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=netlivpn1048.shshh.workers.dev#
-vless://c18b978e-1c4e-415c-8bea-07942b563a64@2.56.207.67:443?encryption=none&security=tls&sni=shuma.ccwu.cc&fp=chrome&type=ws&host=shuma.ccwu.cc&path=%2F#
 vless://M75iXJmnlyAiXS@88.218.92.201:443?security=reality&encryption=none&pbk=HUVDj9wYqh-S8KLlrcfwk_NQLqWCmNgHGjPjaOadG2g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.heise.de&sid=4fff3fcd#
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM🇦🇲

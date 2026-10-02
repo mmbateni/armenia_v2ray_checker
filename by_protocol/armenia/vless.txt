@@ -1,10 +1,18 @@
-# VLESS — Armenia — 2026-10-01 18:09 UTC
-# 7 configs
+# VLESS — Armenia — 2026-10-02 23:51 UTC
+# 15 configs
 
 vless://d0f0a880-0df1-48c9-bdf1-5669fb9483ce@aotocon.ggisopi.su:443?security=reality&encryption=none&pbk=SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aotocon.ggisopi.su#@i10VPN⁴
-vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=safari&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=%2F&mode=auto#REALITY|DE🇩🇪
 vless://d0f0a880-0df1-48c9-bdf1-5669fb9483ce@aotocon.ggisopi.su:443?security=reality&encryption=none&pbk=SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aotocon.ggisopi.su#
-vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#vpnsal
+vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=safari&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=%2F&mode=auto#REALITY|DE🇩🇪
 vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#
-vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@usa2.armageddonvpn.xyz:443?path=/gbV2rcwZ?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=usa2.armageddonvpn.xyz&fp=chrome&type=ws&allowInsecure=0&sni=usa2.armageddonvpn.xyz#
+vless://72e69627-2463-4607-88d9-0b2fa9539f32@87.121.47.89:443?encryption=none&security=reality&sni=news.samsung.com&fp=chrome&pbk=InDEMZiOVU0PYMes4fDh_NALMAjVmWmtlNp2VpNNz3w&sid=8fe3c7&type=xhttp&path=/&mode=auto#vpnsal
+vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@unitedsa2.fastddns.org:443?path=/gbV2rcwZ?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=unitedsa2.fastddns.org&fp=chrome&type=ws&allowInsecure=0&sni=unitedsa2.fastddns.org#🇦🇲186140
+vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@unitedsa2.fastddns.org:443?path=/gbV2rcwZ?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=unitedsa2.fastddns.org&fp=chrome&type=ws&allowInsecure=0&sni=unitedsa2.fastddns.org#
+vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@usa2.armageddonvpn.xyz:443?path=%2FgbV2rcwZ%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=usa2.armageddonvpn.xyz&fp=chrome&type=ws&allowInsecure=0&sni=usa2.armageddonvpn.xyz#AM🇦🇲
+vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@unitedsa2.fastddns.org:443?encryption=none&type=ws&host=unitedsa2.fastddns.org&path=%2FgbV2rcwZ%3Fed%3D2560&security=tls&alpn=http%2F1.1&fp=chrome&sni=unitedsa2.fastddns.org#
+vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@unitedsa2.fastddns.org:443?path=%2FgbV2rcwZ%3Fed%3D2560&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=unitedsa2.fastddns.org&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=unitedsa2.fastddns.org#
 vless://c18b978e-1c4e-415c-8bea-07942b563a64@2.56.207.67:443?encryption=none&security=tls&sni=shuma.ccwu.cc&fp=chrome&type=ws&host=shuma.ccwu.cc&path=%2F#
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM🇦🇲
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?sni=yahoo.com&fp=chrome&security=tls#%F0%9F%87%A6%F0%9F%87%B2%5Bwww.v2nodes.com%5D%20vless-AM-1...
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#🇦🇲

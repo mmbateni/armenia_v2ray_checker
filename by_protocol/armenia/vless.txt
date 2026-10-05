@@ -1,7 +1,7 @@
-# VLESS — Armenia — 2026-10-04 23:00 UTC
+# VLESS — Armenia — 2026-10-05 03:29 UTC
 # 4 configs
 
 vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@unitedsa2.fastddns.org:443?path=%2FgbV2rcwZ%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=unitedsa2.fastddns.org&fp=chrome&type=ws&allowInsecure=0&sni=unitedsa2.fastddns.org#AM🇦🇲
 vless://e86ba41f-f2c4-4773-a6da-6534f12163bb@unitedsa2.fastddns.org:443?path=/gbV2rcwZ?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=unitedsa2.fastddns.org&fp=chrome&type=ws&allowInsecure=0&sni=unitedsa2.fastddns.org#
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?sni=yahoo.com&fp=chrome&security=tls#%F0%9F%87%A6%F0%9F%87%B2%5Bwww.v2nodes.com%5D%20vless-AM-1...
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲

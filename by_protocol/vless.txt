@@ -1,9 +1,4 @@
-# VLESS — Armenia + Azerbaijan — 2026-10-16 08:46 UTC
-# 6 configs
+# VLESS — Armenia + Azerbaijan — 2026-10-16 15:57 UTC
+# 1 configs
 
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#💫@ATOVPN
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#🇦🇿139886
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#
-vless://b8df3f50-ffef-4c7e-9ef3-d5b156a47c02@88.218.95.88:443?sni=www.google.com&type=grpc&serviceName=grpc&fp=chrome&security=tls#%F0%9F%8F%B3%5Bwww.v2nodes.com%5D%20vless-
 vless://b8df3f50-ffef-4c7e-9ef3-d5b156a47c02@88.218.95.88:443?encryption=none&security=reality&sni=www.google.com&fp=random&pbk=rRg3JiP2006ldJYh2TDPAn7dtlXLcSHdgHgkGI_HZTE&sid=43adea0ec9f97a0a&type=grpc&authority=&serviceName=grpc&mode=gun#

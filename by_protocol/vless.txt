@@ -1,16 +1,14 @@
-# VLESS — Armenia + Azerbaijan — 2026-10-21 22:59 UTC
-# 13 configs
+# VLESS — Armenia + Azerbaijan — 2026-10-22 02:35 UTC
+# 11 configs
 
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#💫@ATOVPN
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#🇦🇿139886
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@94.20.154.66:443?&security=tls&fp=chrome&sni=snip.edgeoneai.cc.cd&type=ws&headerType=none&host=snip.edgeoneai.cc.cd&path=%2F#%F0%9F%87%A6%F0%9F%87%BF%20AZ_15
+vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#💫@ATOVPN
 vless://456ecff9-c221-4915-8aa7-2e5745a30935@az.sparxiecn.com:443?security=reality&encryption=none&pbk=6AW8ehYuPtg84kBaGbAN8dumEH3epgwV2rGMPGKyBxI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.oracle.com&sid=af134fdf0bd9f346#@V2ray_confiig
 vless://456ecff9-c221-4915-8aa7-2e5745a30935@az.sparxiecn.com:443?security=reality&encryption=none&pbk=6AW8ehYuPtg84kBaGbAN8dumEH3epgwV2rGMPGKyBxI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.oracle.com&sid=af134fdf0bd9f346#EPODONIOS
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#Tel-@ProxyMtAlpha🫑
-vless://f7376394-cd54-11f1-bb6a-bff6d0326f6a@194.36.37.59:10004?path=/vpnjantit&security=none&encryption=none&type=ws#🇦🇲AM-🚀@VPNine1
-vless://f7376394-cd54-11f1-bb6a-bff6d0326f6a@194.36.37.59:10004?path=/vpnjantit&security=none&encryption=none&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-884ms-GNC-Alfa%20CJSC
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1676ms-Partners%20INC
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM🇦🇲
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#@vasl_bashim
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#Tel-@ProxyMtAlpha🦝
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1498ms-Partners%20INC
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1440ms-Partners%20INC
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#🇦🇲
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#Tel-@ProxyMtAlpha🫑

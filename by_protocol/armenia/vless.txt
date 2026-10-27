@@ -1,9 +1,8 @@
-# VLESS — Armenia — 2026-10-26 23:32 UTC
-# 6 configs
+# VLESS — Armenia — 2026-10-27 03:02 UTC
+# 5 configs
 
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?sni=yahoo.com&fp=chrome&security=tls#%F0%9F%8F%B3%5Bwww.v2nodes.com%5D%20vless-%20%232
 vless://b8df3f50-ffef-4c7e-9ef3-d5b156a47c02@88.218.95.88:443?sni=www.google.com&type=grpc&serviceName=grpc&fp=chrome&security=tls#%F0%9F%87%A6%F0%9F%87%B2%5Bwww.v2nodes.com%5D%20vless-AM-1...
-vless://f7376394-cd54-11f1-bb6a-bff6d0326f6a@194.36.37.59:10004?encryption=none&path=%2Fvpnjantit&security=none&type=ws#AM🇦🇲
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM🇦🇲
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?sni=yahoo.com&fp=chrome&security=tls#%F0%9F%87%A6%F0%9F%87%B2%5Bwww.v2nodes.com%5D%20vless-AM-1...%20%231
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲
-vless://f7376394-cd54-11f1-bb6a-bff6d0326f6a@194.36.37.59:10004?type=ws&path=/vpnjantit#%F0%9F%8F%B3%5Bwww.v2nodes.com%5D%20vless-%20%231
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM🇦🇲
+vless://f7376394-cd54-11f1-bb6a-bff6d0326f6a@194.36.37.59:10004?encryption=none&path=%2Fvpnjantit&security=none&type=ws#AM🇦🇲

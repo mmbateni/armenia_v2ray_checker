@@ -1,17 +1,14 @@
-# VLESS — Armenia + Azerbaijan — 2026-10-28 03:11 UTC
-# 14 configs
+# VLESS — Armenia + Azerbaijan — 2026-10-28 10:14 UTC
+# 11 configs
 
-vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#🇦🇿139886
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.39:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#💫@ATOVPN
-vless://c18b978e-1c4e-415c-8bea-07942b563a64@2.56.204.183:443?security=tls&sni=shuma.ccwu.cc&type=ws&fp=chrome&path=/#[79880]
-vless://c18b978e-1c4e-415c-8bea-07942b563a64@2.56.204.183:443?security=tls&sni=shuma.ccwu.cc&type=ws&fp=chrome&path=/#🇦🇲AM-🚀@VPNine1
-vless://c18b978e-1c4e-415c-8bea-07942b563a64@2.56.204.183:443?security=tls&sni=shuma.ccwu.cc&type=ws&fp=chrome&path=/#🇦🇲201549
-vless://4b1be712-774c-4b65-8491-a3339e124a70@am1.pc-nodalys.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=am1.pc-nodalys.top&pbk=v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk&sid=a9c3f7e2#🇦🇲201631
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1475ms-Partners%20INC
-vless://4b1be712-774c-4b65-8491-a3339e124a70@am1.pc-nodalys.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=am1.pc-nodalys.top&pbk=v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk&sid=a9c3f7e2#🇦🇲AM-🚀@VPNine1
-vless://4b1be712-774c-4b65-8491-a3339e124a70@am1.pc-nodalys.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=am1.pc-nodalys.top&pbk=v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk&sid=a9c3f7e2#[79908]
-vless://4b1be712-774c-4b65-8491-a3339e124a70@am1.pc-nodalys.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=am1.pc-nodalys.top&pbk=v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk&sid=a9c3f7e2#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1018ms-GNC-Alfa%20CJSC
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM🇦🇲
+vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?security=reality&encryption=none&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=luminous-vortex.cdn.cachefleet.com#🇦🇿139886
+vless://c2231af0-d72a-4a43-990e-8fdfe1d0acc4@azerbaijan-sgood.wopd.butnorwa.butter.melon.shoes.bye.bye.god.xn--fhq0la447aac5504dea701axr1g.whooisthebest.ir:9000?security=reality&encryption=none&pbk=Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM&headerType=none&fp=chrome&type=tcp&sni=sheets.google.com&sid=cd0a1986719e44c8#🇦🇿201700
+vless://c2231af0-d72a-4a43-990e-8fdfe1d0acc4@azerbaijan-sgood.wopd.butnorwa.butter.melon.shoes.bye.bye.god.xn--fhq0la447aac5504dea701axr1g.whooisthebest.ir:9000?security=reality&encryption=none&pbk=Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM&headerType=none&fp=chrome&type=tcp&sni=sheets.google.com&sid=cd0a1986719e44c8#🇦🇿AZ-🚀@VPNine1
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#REALITY|AM🇦🇲
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1475ms-Partners%20INC
 vless://4b1be712-774c-4b65-8491-a3339e124a70@am1.pc-nodalys.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=am1.pc-nodalys.top&pbk=v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk&sid=a9c3f7e2#⚡️
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#🇦🇲AM-🚀@VPNine1
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=0e#REALITY|AM🇦🇲
+vless://4b1be712-774c-4b65-8491-a3339e124a70@am1.pc-nodalys.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=am1.pc-nodalys.top&pbk=v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk&sid=a9c3f7e2#🇦🇲201631
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=/#🇦🇲
+vless://4b1be712-774c-4b65-8491-a3339e124a70@am1.pc-nodalys.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=am1.pc-nodalys.top&pbk=v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk&sid=a9c3f7e2#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B2-Yerevan-1018ms-GNC-Alfa%20CJSC

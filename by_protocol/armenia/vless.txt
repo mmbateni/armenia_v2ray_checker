@@ -1,3 +1,5 @@
-# VLESS — Armenia — 2026-11-28 05:37 UTC
-# 0 configs
+# VLESS — Armenia — 2026-11-28 16:33 UTC
+# 2 configs
 
+vless://eaa34d9f-662d-4378-8210-3508b5eee727@217.216.218.123:443?mode=auto&security=reality&encryption=none&pbk=B4gdMxfjdXtFuqg-Ek9CDKiJT6QQiKb-tV2VODt_ik0&type=xhttp&sni=savesafe.top&sid=def9b800fb6a3ddb#REALITY|DE🇩🇪
+vless://ba373a70-295f-482d-a471-8bc17b54e23b@2.56.207.123:443?security=reality&flow=xtls-rprx-vision&pbk=pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ&sid=27350908de933e09&fp=chrome&sni=ironlark.xyz&type=tcp&headerType=none&host=ironlark.xyz&path=/#🇦🇲AM-🚀@VPNine1
